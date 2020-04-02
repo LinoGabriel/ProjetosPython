@@ -23,7 +23,7 @@ while True:
 
     elif resposta == 3:
         sleep(1)
-        print('saindo do programa!')
+        print('saindo do programa.')
         break
     else:
         print(f'\033[31mA OPÇÃO {resposta} É INVALIDA, INSIRA UM VALOR VALIDO.\033[m')
