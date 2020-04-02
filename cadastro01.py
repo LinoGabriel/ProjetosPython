@@ -1,5 +1,6 @@
 from interface import *
 from arquivo import *
+from time import sleep
 arq = 'CadastroAJN.txt'
 if not arquivoExiste(arq):
     criarArquivo(arq)
@@ -21,6 +22,7 @@ while True:
         escreverArquivo(arq, nome, idade, turma)
 
     elif resposta == 3:
+        sleep(1)
         print('sair do programa.')
         break
     else:
